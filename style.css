@@ -1,0 +1,39 @@
+body {
+    font-family: Lato, sans-sherif;
+    color: #291f1a;
+    font-weight: 300;
+} 
+
+/*nawigacja*/   
+
+.nav {
+
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #fffff;
+    font: #1ac056;
+    top: 0;
+    left: 0;
+
+}
+ul {
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
