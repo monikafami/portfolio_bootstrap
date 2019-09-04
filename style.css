@@ -2,9 +2,9 @@ body {
     font-family: Lato, sans-sherif;
     color: #291f1a;
     font-weight: 300;
-} 
+}
 
-/*nawigacja*/   
+/*nawigacja*/
 
 .navMain {
     background: #ffffff;
@@ -12,30 +12,30 @@ body {
     position: fixed;
     height: auto;
     z-index: 99;
-    
+
 }
 
 ul {
-  float: right;
+    float: right;
 }
 
 li {
-    
-  display: block;
-  float: right;
-  list-style-type: none;
+
+    display: block;
+    float: right;
+    list-style-type: none;
 
 }
 
 .nav-main-a {
- 
-  color: #1ac056;
-  text-align: center;
-  padding: 14px 16px;
-    list-style-type: none;
-  text-decoration: none;
 
-  
+    color: #1ac056;
+    text-align: center;
+    padding: 14px 16px;
+    list-style-type: none;
+    text-decoration: none;
+
+
 }
 
 li:hover {
@@ -53,11 +53,50 @@ li:hover {
 }
 
 .mainHederContent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.colorSurname {
+    color: #1ac056;
+
+}
+
+/*sekcja o mnie*/
+
+
+#about {
+    text-align: center;
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+.page {
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+.myimg {
+    height: 350px;
+    border: 15px solid #1ac056;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#about h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
 
 }
