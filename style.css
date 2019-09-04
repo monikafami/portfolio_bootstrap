@@ -78,14 +78,16 @@ li:hover {
 }
 
 .page {
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin: 0;
-    width: 50%;
-    float: left;
+    width: 100%;
+    float: middle;
 }
 
 .myimg {
     height: 350px;
-    border: 15px solid #1ac056;
+    border: 15px solid white;
     border-radius: 10px;
     display: block;
     margin-left: auto;
@@ -93,10 +95,34 @@ li:hover {
 
 }
 
-#about h2 {
+h2 {
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
 
 }
+
+/*zakładka umiejetności wraz z 4 ikonami*/
+
+#skills {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+#skills_icons {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 120px ;
+    width: 100%;
+    background-color: #f9fcfe;
+    text-align: center;
+
+}
+
+
