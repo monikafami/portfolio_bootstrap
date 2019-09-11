@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
     <title>Monika Famielec</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -48,46 +50,77 @@
     </div>
 -->
 
-    <section id="about">
-        <h2>O mnie</h2>
-        <figure class="page">
-            <img class="myimg" src="img/jan-nowak.jpg" alt="zdjęcie profilowe">
-            <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus odio, ab officia corporis veniam quibusdam reiciendis magni temporibus quis unde alias deleniti dicta reprehenderit doloremque quisquam quidem! Labore numquam cum similique consequuntur! Itaque error excepturi odio doloremque provident, natus modi! Ut perspiciatis commodi aut eveniet voluptatibus sint, expedita necessitatibus harum.</p>
-            </article>
+    <section class="about">
+        <div class="container">
 
-        </figure>
+            <h2>O mnie</h2>
+            <figure class="page">
+                <img class="myimg" src="img/jan-nowak.jpg" alt="zdjęcie profilowe">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus odio, ab officia corporis veniam quibusdam reiciendis magni temporibus quis unde alias deleniti dicta reprehenderit doloremque quisquam quidem! Labore numquam cum similique consequuntur! Itaque error excepturi odio doloremque provident, natus modi! Ut perspiciatis commodi aut eveniet voluptatibus sint, expedita necessitatibus harum.</p>
+                </article>
+
+            </figure>
+        </div>
 
     </section> <br>
 
 
 
 
-    <section id="skills">
-        <h2>Umiejętności</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod inventore magnam quas praesentium architecto recusandae eum necessitatibus et earum nulla expedita labore dolores eveniet, consequuntur laudantium cumque in accusamus dolorum voluptatem saepe totam quaerat officia itaque. Magni hic, maxime, repellat quis aspernatur distinctio facilis odio fuga et, quae eveniet.</p>
-        <div id="skills_icons">
-            <figure><img src="icons/css3.png" alt="logocss3">
-                <figcaption>znajomość css3</figcaption>
-            </figure>
-            <figure><img src="icons/html5.png" alt="logohtml5">
-                <figcaption>znajomość html5</figcaption>
-            </figure>
-            <figure><img src="icons/jquery.png" alt="logojquery">
-                <figcaption>nie znajomość jquery</figcaption>
-            </figure>
-            <figure><img src="icons/js.png" alt="logojs">
-                <figcaption>mała znajomość javascript</figcaption>
-            </figure>
+    <section class="skills">
+        <div class="container">
+
+            <h2> Moje umiejętności</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod inventore magnam quas praesentium architecto recusandae eum necessitatibus et earum nulla expedita labore dolores eveniet, consequuntur laudantium cumque in accusamus dolorum voluptatem saepe totam quaerat officia itaque. Magni hic, maxime, repellat quis aspernatur distinctio facilis odio fuga et, quae eveniet.</p>
+            <div id="skills_icons">
+                <figure><img src="icons/css3.png" alt="logocss3">
+                    <figcaption>znajomość css3</figcaption>
+                </figure>
+                <figure><img src="icons/html5.png" alt="logohtml5">
+                    <figcaption>znajomość html5</figcaption>
+                </figure>
+                <figure><img src="icons/jquery.png" alt="logojquery">
+                    <figcaption>nie znajomość jquery</figcaption>
+                </figure>
+                <figure><img src="icons/js.png" alt="logojs">
+                    <figcaption>mała znajomość javascript</figcaption>
+                </figure>
+
+            </div>
+        </div>
 
 
+    </section>
 
+    <br>
+
+    <!--    footer-->
+
+    <section class="container contact">
+
+        <div class="container contact-data">
+
+            <h2>Monika <span class='colorSurname'>Famielec</span> </h2>
+            <address>al. Pod mostem 95-200 Pabianice <br> tel. 555-348-799 <br>
+                e-mail: <span class="e-mailaddress">monika@fami.gmail.com</span> </address>
+
+            <div class="container contact-social-icons">
+                <i class="fab fa-facebook-f" id="contact-social-icons"></i>
+                <i class="fab fa-instagram"id="contact-social-icons"></i>
+                <i class="fab fa-twitter"id="contact-social-icons"></i>
+            </div>
+        </div>
+
+        <div class="container contact-form">
+            <input type="text" class="contact-form-text" placeholder="Imię i Nazwisko">
+            <input type="text" class="contact-form-text" placeholder="E-mail">
+            <textarea class="contact-form-text" id="" placeholder="Treść wiadomości" cols="20" rows="5"></textarea>
+            <input type="submit" value="Wyślij">
 
         </div>
 
     </section>
-
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
