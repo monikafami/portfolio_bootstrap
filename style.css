@@ -125,7 +125,50 @@ h2 {
 
 }
 
+
+/*<!--    portfolio z trzema zdjęciami-->*/
+
+#portfolio-item-1 {
+    background-image: url(img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(img/portfolio3.jpg);
+}
+.portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+}
+
+.portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+.item-mask {
+    background: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
 /*footer - address, icons, contact form*/
+
 .contact {
     display: grid;
     grid-template-columns: auto auto;
@@ -205,4 +248,17 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #fff;
     color: #1ac056;
+}
+
+footer {
+    background: #142634;
+    background-size: cover;
+    width: 100%;
+    padding: 0 80px;
+    display: block;
+    float: left;
+}
+
+footer p {
+    margin: 0;
 }
